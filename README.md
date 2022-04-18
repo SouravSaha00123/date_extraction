@@ -5,7 +5,7 @@
  [Pytesseract](https://pypi.org/project/pytesseract/)
  
 ## How to run the model?
- The model is implemented in date_class.py.Download the date_pattern text file and the document file containing certain text. Convert the document file into readable text. Run the following lines to extract dates from text.
+ The model is implemented in date_class.py. Download the date_pattern text file. Convert any scanned document file into readable text. Run the following lines to extract dates from text.
  `````````
 sentences=sent_tokenize(text)
 for sentence in sentences:
@@ -17,7 +17,7 @@ for sentence in sentences:
             print('The date format ('+word+') is correct and is extracted by:\n'+formt)
             print(result)
  `````````
- Here, 'text' is the converted text file obtained from document file.
+ Here, 'text' is the converted text file obtained from scanned document file.
 
 ## Contact
 For any further query, comment or suggestion, you may reach out to me at ssaharaj@gmail.com
