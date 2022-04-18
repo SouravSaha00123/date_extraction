@@ -38,8 +38,3 @@ for sentence in sentences:
             print('The date format ('+word+') is correct and is extracted by:\n'+formt)
             print(result)
 
-
-#sentence='The MSPHL intends 20..3-02-2021 to implement the OpenELIS LIMS on February 01,1992'
-
-#cls=date_class(sentence,path = 'E:/Python/Python codes(Spyder IDE)/date_pattern.txt') 
-#dates = cls.date_extract() 
