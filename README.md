@@ -3,6 +3,7 @@
 ## Prerequisites
  [Python 3](https://www.python.org/downloads/),[NLTK](https://pypi.org/project/nltk/),[Regex](https://pypi.org/project/regex/),
  [Pytesseract](https://pypi.org/project/pytesseract/)
+ 
 ## How to run the model?
  The model is implemented in date_class.py.Download the date_pattern text file and the document file containing certain text. Convert the document file into readable text. Run the following lines to extract dates from text.
  `````````
@@ -17,5 +18,6 @@ for sentence in sentences:
             print(result)
  `````````
  Here, 'text' is the converted text file obtained from document file.
-##Contact
+
+## Contact
 For any further query, comment or suggestion, you may reach out to me at ssaharaj@gmail.com
