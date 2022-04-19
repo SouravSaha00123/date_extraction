@@ -7,7 +7,7 @@ Created on Fri Apr  8 00:25:16 2022
 import re
 
 class date_class():
-    def __init__(self,sentence='',path='./date_pattern.txt'):
+    def __init__(self,sentence='',path='./xyz/home/date_pattern.txt'):
         self.sentence = sentence
         self.path = path        
     
