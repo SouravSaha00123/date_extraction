@@ -6,7 +6,7 @@
 ## How to run the model?
  The model is implemented in date_class.py. Run the following lines to extract dates from text.
  ```
-format = date_class(sentence,path = './xyz/home/date_pattern.txt')
+format = date_class(text,path = './xyz/home/date_pattern.txt')
 result = format.date_extract()
 print(result)
  ```
