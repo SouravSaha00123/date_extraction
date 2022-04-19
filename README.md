@@ -1,19 +1,16 @@
 # Extract Date from Text
 
 ## Prerequisites
- [Python 3](https://www.python.org/downloads/),[NLTK](https://pypi.org/project/nltk/),[Regex](https://pypi.org/project/regex/),
- [Pytesseract](https://pypi.org/project/pytesseract/)
+ [Python 3](https://www.python.org/downloads/),[NLTK](https://pypi.org/project/nltk/),[Regex](https://pypi.org/project/regex/)
  
 ## How to run the model?
- The model is implemented in date_class.py. Download the date_pattern text file. Run the following lines to extract dates from text.
- `````
-sentences=sent_tokenize(text)
-for sentence in sentences:
-    formt = date_class(sentence,path = './xyz/home/date_pattern.txt')
-    result = formt.date_extract()
-    print(result)
- `````
- Here, 'text' is the text used for date extraction.
+ The model is implemented in date_class.py. Run the following lines to extract dates from text.
+ ```
+format = date_class(sentence,path = './xyz/home/date_pattern.txt')
+result = format.date_extract()
+print(result)
+ ```
+ Here, 'sentence' is the sentence obtained from the text that is used for date extraction.
 
 ## Contact
 For any further query, comment or suggestion, you may reach out to me at ssaharaj@gmail.com
