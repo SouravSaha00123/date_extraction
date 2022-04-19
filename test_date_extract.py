@@ -27,10 +27,10 @@ def scanned_file_to_text(file_path):
     print('PDF to Text is done \n')
     return text
 
-text=scanned_file_to_text("./Document.pdf")
+text=scanned_file_to_text("./srah/home/yzr/Document.pdf")
 sentences=sent_tokenize(text)
 for sentence in sentences:
-    formt = date_class(sentence,path = './date_pattern.txt')
+    formt = date_class(sentence,path = './xyz/home/date_pattern.txt')
     result = formt.date_extract()
     words=word_tokenize(sentence)
     for word in words:
