@@ -14,11 +14,11 @@ fl.close()
 
 sentences = sent_tokenize(text)
 for sentence in sentences:
-    formt = date_class(sentence,path = './xyz/home/date_pattern.txt')
-    result = formt.date_extract()
+    format = date_class(sentence,path = './xyz/home/date_pattern.txt')
+    result = format.date_extract()
     words = word_tokenize(sentence)
     for word in words:
         if result == 'yes':
-            print('The date format ('+word+') is correct and is extracted by:\n'+formt)
+            print('The date format ('+word+') is correct and is extracted by:\n'+format)
             print(result)
 
