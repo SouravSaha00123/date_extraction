@@ -16,13 +16,10 @@ class date_class():
         patterns=fl.read().strip('\n').split('\n') 
         fl.close()
         dates=[]
-        for pattern in patterns: 
-            # results= re.findall(r""+pattern+"",sentence)
+        for pattern in patterns:
             results= re.findall(pattern,self.sentence) 
             if results:
-               # print(results.group(0))
                 dates.append(''.join(results[0])) 
                 print(''.join(results[0]))            
                 print(pattern)
-         # input()
         return dates
